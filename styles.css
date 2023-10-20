@@ -1,0 +1,73 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: #dedede;
+}
+
+label{
+    font-size: 25px;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+}
+
+input:focus{
+    border: 3px solid black;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+}
+
+textarea:focus{
+    border: 3px solid black;
+}
+
+button{
+    width: 100%;
+    background-color: rgb(71, 232, 232);
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(54, 178, 178);
+}
